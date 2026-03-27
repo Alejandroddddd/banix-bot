@@ -1,5 +1,4 @@
-const { KeepAlive } = require("./keep_alive")
-
+const fs = require("fs");
 let users = {};
 
 if (fs.existsSync("data.json")) {
