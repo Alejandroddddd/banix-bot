@@ -125,6 +125,8 @@ fs.writeFileSync("data.json", JSON.stringify(users, null, 2));
     return message.reply("🔄 Usuario reiniciado");
   }
 
+  // update
+
 });
 
 client.login(process.env.TOKEN);
